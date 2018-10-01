@@ -8,4 +8,4 @@ draft = false
 
 # About.
 
-hehe. :)
+hehe. \o/
