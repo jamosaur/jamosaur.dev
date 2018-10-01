@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.jamosaur.xyz"
+baseurl = "https://www.jamosaur.xyz/"
 title = "jamosaur"
 languageCode = "en"
 theme = "hugo-theme-cactus-plus"
