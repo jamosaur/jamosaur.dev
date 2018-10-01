@@ -1,11 +1,7 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | About }}"
-date = {{ .Date }}
-tags = [""]
-categories = [""]
-draft = false
+date = "2015-06-20T14:02:37+02:00"
+title = "About"
+hidden = true
 +++
 
-# About.
-
-hehe. \o/
+This is a placeholder \o/
