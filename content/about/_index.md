@@ -4,4 +4,15 @@ title = "About"
 hidden = true
 +++
 
-This is a placeholder \o/
+Hello.
+
+My name is James. I'm currently the head of development at [MyPTHub](https://www.mypthub.net). I'm a full stack developer but have a preference for back-end development.
+
+The tech i use on a day to day basis is:
+
+- PHP 7 / PHP 7.2
+- Laravel 5.4 / Laravel 5.7
+- AngularJS
+- VueJS
+- Terraform
+- Ionic / Cordova
