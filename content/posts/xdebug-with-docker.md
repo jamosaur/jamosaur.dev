@@ -1,5 +1,4 @@
 ---
-title: "Xdebug With Docker"
 date: 2018-10-20T20:33:12+01:00
 draft: false
 title: Using Xdebug with docker and PhpStorm
