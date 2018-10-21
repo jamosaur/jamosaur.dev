@@ -4,6 +4,7 @@ date: 2018-10-20T20:33:12+01:00
 draft: false
 title: Using Xdebug with docker and PhpStorm
 slug: xdebug-with-docker-phpstorm
+tags: ["php", "xdebug", "docker", "laravel"]
 ---
 
 Over the last two weeks i have been working on a tricky bug, related to timezones and recurring bookings. After a while you get sick of making changes to your code, adding some `dd()`'s in there and re-running your request. Don't get me wrong, `dd()` is useful, sometimes quicker to use too. But if you're in a loop somewhere and want to find out what's happening, it's not really much help at all.
