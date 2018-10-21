@@ -1,7 +1,7 @@
 ---
 title: "Getting Started With Docker"
-date: 2018-10-21T11:28:10+01:00
-draft: true
+date: 2018-10-21T13:42:00+01:00
+draft: false
 slug: getting-started-with-docker
 tags: ['docker', 'php', 'laravel']
 ---
