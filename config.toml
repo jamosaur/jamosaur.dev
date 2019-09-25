@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.jamosaur.xyz/"
+baseurl = "https://www.jamosaur.dev/"
 title = "jamosaur"
 languageCode = "en"
 theme = "hugo-theme-cactus-plus"
@@ -10,7 +10,7 @@ hasCJKLanguage = false
 [params]
 	author = "James Wallen-Jones"
 	description = "Site Description"
-	bio = "Full stack (PHP/JS) & DevOps"
+	bio = "Full Stack Developer & DevOps"
 
 	twitter = "thejaaaam"
 	facebook = ""
