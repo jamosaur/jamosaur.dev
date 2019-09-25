@@ -63,7 +63,7 @@ Last but not least, we have to set up PhpStorm so that it connects to Xdebug.
 4. Navigate to `Languages & Frameworks > PHP > Debug`
 5. Set Xdebug port to `9001`
 6. Navigate to `Languages & Frameworks > PHP > Servers`
-7. Add a server named `api.mypthub.test` then add a path mapping to your project folder. Mine is `/application/api`, because my `docker-compose.yml` mounts a volume like this: `.:/application:cached`. Change this based on how you're data is mounted in your container.
+7. Add a server named `api.mypthub.test` then add a path mapping to your project folder. Mine is `/application/api`, because my `docker-compose.yml` mounts a volume like this: `.:/application:cached`. Change this based on how your data is mounted in your container.
 
 ### Success!
 
