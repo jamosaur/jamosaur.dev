@@ -21,6 +21,7 @@ The tech i use on a day to day basis is:
 - PHP 7 / PHP 7.3
 - Laravel 5.4 / Laravel 5.8
 
+***
 
 ### Frontend
 
@@ -29,12 +30,14 @@ The tech i use on a day to day basis is:
 - Redux
 - AngularJS
 
+***
 
 ### Mobile
 
 - React Native
 - Ionic / Cordova
 
+***
 
 ### Ops
 
