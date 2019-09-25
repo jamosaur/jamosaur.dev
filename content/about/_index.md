@@ -10,7 +10,7 @@ My name is James. I'm currently the head of development at [MyPTHub](https://www
 
 I'm a full stack developer with experience in multiple languages.
 
-I'm a strong believe in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.
+I'm a strong believer in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.
 
 ***
 
