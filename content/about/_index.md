@@ -44,3 +44,4 @@ The tech i use on a day to day basis is:
 - Terraform
 - Kubernetes
 - Docker + Docker Compose
+- Nginx / Apache
