@@ -14,7 +14,7 @@ I'm a strong believer in producing high quality, readable code. Documentation, t
 
 I first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since them i have been constantly learning new things myself and keeping on top of current web trends.
 
-When I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7)
+When I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7).
 
 
 
