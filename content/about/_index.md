@@ -12,7 +12,7 @@ I'm a full stack developer with experience in multiple languages.
 
 I'm a strong believer in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.
 
-I first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since them i have been constantly learning new things myself and keeping on top of current web trends.
+I first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since then, I have been constantly learning new things myself and keeping on top of current web trends.
 
 When I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7).
 
@@ -25,7 +25,7 @@ When I'm not developing, I can usually be found on my aggressive skates either g
 #### My PT Hub
 July 2017 - Present | *Head Of Development*
 
-My role at My PT Hub means i am the "go-to" person for the rest of the team. I work alongside the management team and help out a team of 6-8 developers to get things done.
+My role at My PT Hub means I am the "go-to" person for the rest of the team. I work alongside the management team and help out a team of 6-8 developers to get things done.
 
 My main responsibilities are to make sure things keep working in the background, mentoring junior staff and developing new features.
 
@@ -90,13 +90,13 @@ My main responsibilities are to make sure things keep working in the background,
 #### Hare Digital
 September 2015 - July 2017 | *Developer/DevOps*
 
-During my time at Hare, i worked on a range of products, both SaaS and agency client work.
+During my time at Hare, I worked on a range of products, both SaaS and agency client work.
 
 - **Scorpion**
     
     *PHP 5.6 -> PHP 7.0, CodeIgniter 2, Java*
 
-    This was the biggest, and most consistent project i worked on, we were tasked with maintaining and improving on software that focused on asset tracking for both businesses and consumers.
+    This was the biggest, and most consistent project I worked on, we were tasked with maintaining and improving on software that focused on asset tracking for both businesses and consumers.
     I was tasked with managing 3 dedicated servers and multiple VPS's which ran different software to communicate with the units that were attached the the assets that were being tracked.
     One of my main tasks was keeping the legacy codebase up to date and adding new features. During my time here we upgraded the PHP version from 5.6 to 7.0.
     
