@@ -66,7 +66,7 @@ My main responsibilities are to make sure things keep working in the background,
     The software enabled them at a higher level to manage all of their employees and check on performance of them.
     It also had an element of it for the employees to use so that they could manage their clients and provide them a better service.  
 
-- Fitkik
+- **Fitkik**
 
     *PHP 7.3, Laravel 5.7, React, Firebase, GCP, Kubernetes*
     
@@ -92,7 +92,7 @@ September 2015 - July 2017 | *Developer/DevOps*
 
 During my time at Hare, i worked on a range of products, both SaaS and agency client work.
 
-- Scorpion
+- **Scorpion**
     
     *PHP 5.6 -> PHP 7.0, CodeIgniter 2, Java*
 
@@ -100,7 +100,7 @@ During my time at Hare, i worked on a range of products, both SaaS and agency cl
     I was tasked with managing 3 dedicated servers and multiple VPS's which ran different software to communicate with the units that were attached the the assets that were being tracked.
     One of my main tasks was keeping the legacy codebase up to date and adding new features. During my time here we upgraded the PHP version from 5.6 to 7.0.
     
-- Scropion & TomTom
+- **Scorpion & TomTom**
 
     *PHP 7, Lumen 5.2, Vue 1, Java*
     
@@ -108,7 +108,7 @@ During my time at Hare, i worked on a range of products, both SaaS and agency cl
     An app was developed to replicate the functionality provided for the asset tracking software but in partnership with TomTom.
     A web-based front-end was also created which allowed business owners to monitor their assets in real-time and communicate with the TomTom devices.
     
-- Other Projects
+- **Other Projects**
 
     - *PHP 5.6, Laravel 5.0* In-house client management and communication platform.
     - *PHP 5.6, Laravel 5.0* SaaS idea for online catalogues for manufacturing
