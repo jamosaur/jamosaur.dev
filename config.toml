@@ -15,7 +15,7 @@ hasCJKLanguage = false
 	twitter = "thejaaaam"
 	facebook = ""
 
-	enableRSS = true
+	enableRSS = false
 	enableToc = false
 
 	enableDisqus = false
