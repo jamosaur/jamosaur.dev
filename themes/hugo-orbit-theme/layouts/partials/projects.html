@@ -1,0 +1,14 @@
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.projects.icon }}"></i>{{ i18n "projects" }}</h2>
+                <div class="intro">
+                    <p>{{ with .Site.Params.projects.intro }}{{ . | markdownify }}{{ end }}</p>
+                </div><!--//intro-->
+				{{ range .Site.Params.projects.list }}
+                <div class="item">
+                    <h3 class="job-title">{{ .title }}</h3>
+                    <div style="color: #97AAC3; margin-top: 3px;">{{ with .company }}{{ . | markdownify }}{{ end }}</div>
+                    <div class="company">{{ with .technology }}{{ . | markdownify }}{{ end }}</div>
+                    <span class="project-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
+                </div><!--//item-->
+				{{ end }}
+            </section><!--//section-->
