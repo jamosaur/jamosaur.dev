@@ -1,79 +1,307 @@
-# Site settings
-baseurl = "https://www.jamosaur.dev/"
-title = "jamosaur"
-languageCode = "en"
-theme = "hugo-theme-cactus-plus"
+# Page settings
+
+baseurl = "https://jamosaur.dev/"
+languageCode = "en-us"
+title = "James Wallen-Jones"
+theme = "hugo-orbit-theme"
 googleAnalytics = "UA-49672173-3"
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage = false
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = false
+disable404 = false
 
 [params]
-	author = "James Wallen-Jones"
-	description = "James Wallen-Jones / Full Stack Developer & DevOps"
-	bio = "Full Stack Developer & DevOps"
 
-	twitter = "thejaaaam"
-	facebook = ""
+# Meta
+    description = "CV for James Wallen-Jones"
+    author = "James Wallen-Jones"
 
-	enableRSS = false
-	enableToc = false
+# Theme styles
 
-	enableDisqus = false
-	disqusShortname = "your_disqus_short_name"
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
 
+    styles = "styles-4.css"
 
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
+# Sidebar sections
 
+    # Profile section
+    [params.profile]
+        name = "James Wallen-Jones"
+        tagline = "Full Stack Developer & DevOps"
+        avatar = "me.jpeg"
 
-	enableGoogleAnalytics = true
-	enableBaiduAnalytics = false
-	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
+    # Contact section
+    [params.contact]
+        enable = true
 
-	enableTwitterCard = true
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: j.wallen.jones@gmail.com"
+        title = "j.wallen.jones@gmail.com"
 
-	# Add custom assets with their paths relative to the static folder
-	customCSS = []
-	customJS  = []
+#        [[params.contact.list]]
+#        class = "phone"
+#        icon = "fa-phone"
+#        url = "tel:+1234567890"
+#        title = "+1234567890"
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//jamosaur.dev"
+        title = "jamosaur.dev"
 
-	# Navigation links
-	home = ""
-	about = ""
-	archive = ""
-	subscribe = ""
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/jamosaur"
+        title = "linkedin.com/in/jamosaur"
 
-	olderPosts = ""
-	newerPosts = ""
-	copyright = ""
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/jamosaur"
+        title = "github.com/jamosaur"
 
-	# show latest posts in single page
-	showLatestPosts = false
-	readMore = ""
+#        [[params.contact.list]]
+#        class = "twitter"
+#        icon = "fa-twitter"
+#        url = "//twitter.com/username"
+#        title = "@twittername"
 
-	# Share
-	enableShare = true
-	tweet = ""
-	share = ""
+    # Education section
+    [params.education]
+        enable = false
+        title = "Education"
 
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        college = "University of London"
+        dates = "2006 - 2010"
 
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
+        [[params.education.list]]
+        degree = "BSc in Applied Mathematics"
+        college = "Bristol University"
+        dates = "2007 - 2011"
 
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
 
-# Add additional social link entries underneath
-[social]
-	#facebook-square = "https://www.facebook.com/nodejh"
-	twitter-square = "https://www.twitter.com/thejaaaam"
-	github-square = "https://www.github.com/jamosaur"
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Swedish"
+        level = "Basic"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Rollerblading"
+
+        [[params.interests.list]]
+        interest = "Ice Hockey"
+
+        [[params.interests.list]]
+        interest = "Gaming"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "About Me"
+        summary = "My name is James. I'm currently the head of development at [MyPTHub](https://www.mypthub.net).\n\nI'm a full stack developer with experience in multiple languages.\n\nI'm a strong believer in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.\n\nI first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since then, I have been constantly learning new things myself and keeping on top of current web trends.\n\nWhen I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7)."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Head Of Development"
+        dates = "July 2017 - Present"
+        company = "My PT Hub"
+        details = "My role at My PT Hub means I am the \"go-to\" person for the rest of the team. I work alongside the management team and lead a team of 6-8 developers to get things done.\n\nMy main responsibilities are:\n\n - Maintaining infrastructure\n- Mentoring team members\n- Planning and developing features\n- Making decisions on which technologies to use\n- Migrating legacy code to modern standards\n- Upgrading payment systems to be SCA compliant"
+
+        [[params.jobs.list]]
+        position = "Developer / DevOps / SysOps"
+        dates = "September 2015 - July 2017"
+        company = "Hare Digital"
+        details = "During my time at hare, i worked on a range of products, from SaaS to agency work for various clients.\n\nThe main product i worked on was a vehicle/asset tracking web platform which provided a service for vehicle owners and fleet managers to track their vehicles and monitor usage."
+
+        [[params.jobs.list]]
+        position = "Developer / Digital Marketing"
+        dates = "September 2011 - September 2015"
+        company = "build14me / Frank! Communications"
+        details = "During my time here I created and maintained multiple client websites and worked on re-branding/marketing for multiple clients such as *Stonewall*, *Sussex & Surrey Police* and *Brighton Fringe Festival*.\n\nI developed a CMS called *Timberwolf* (PHP 5.6 and Laravel 4.2) for use in-house to develop websites quicker for our clients and created a module system which allowed us to enable and disable features depending on the client specification.\n\nMy Main duties were:\n\n- Creating cross-browser compatible responsive websites.\n- Managing a portfolio of 30+ websites and 10+ cloud servers.\n- Providing technical support to clients.\n- Researching technologies and developing the *Timberwolf* CMS."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**Projects i've worked on in my roles**"
+
+        [[params.projects.list]]
+        title = "My PT Hub V3"
+        company = "My PT Hub"
+        technology = "Angular JS -> Vue | Ionic -> React Native"
+        tagline = "Over a period of ~10 months we were tasked with the re-branding and re-writing of our software for both mobile and web.\nDuring this time, we produced a design system that was the same for both web and mobile as well as migrating web from AngularJS to Vue, and the mobile apps from Ionic v1 to React Native.\n\nWe have 2 versions of the software available; MyPTHub Classic for legacy customers and My PT Hub (V3), for new customers and those who wish to upgrade."
+
+        [[params.projects.list]]
+        title = "CLI tool for finance"
+        company = "My PT Hub"
+        technology = "Go, Stripe"
+        tagline = "I created a very basic tool using Go to export data from Stripe for easier analysis by the finance department."
+
+        [[params.projects.list]]
+        title = "Whitelabel Apps"
+        company = "My PT Hub"
+        technology = "PHP 7.3, Laravel 5.8, React, AWS SQS, Fastlane, Custom EC2 AMI"
+        tagline = "I created an in-house platform that allows us to provide a whitelabel app service for our customers.\nA front-end application has been created which allows the support team to manage whitelabel apps.\n\nThe system has been built to auto-scale based on how many apps were to be built. This allows us to build approximately 200 android apps at once. (~1500-2000 per hour)."
+
+        [[params.projects.list]]
+        title = "Club management software"
+        company = "My PT Hub"
+        technology = "PHP 7.2, Laravel 5.6, Vue, Terraform, AWS ECS, Ionic"
+        tagline = "A front-end developer and I created a platform that was used by a large, well-known gym chain.\n\nhe software enabled them at a higher level to manage all of their employees and check on performance of them.\nIt also had an element of it for the employees to use so that they could manage their clients and provide them a better service."
+
+        [[params.projects.list]]
+        title = "Fitkik"
+        company = "My PT Hub"
+        technology = "PHP 7.3, Laravel 5.7, React, Firebase, GCP, Hubernetes, Helm"
+        tagline = "This project was to create a mobile-only platform to allow users to create fitness challenges with their friends, or join global challenges that had been created.\n\nThe platform allowed users to connect their smart fitness devices (Fitbit, Apple Health, Google Fit) to their accounts to compete in a range of challenges (Steps, Distance covered, calories burnt etc)."
+
+        [[params.projects.list]]
+        title = "My PT Hub Classic"
+        company = "My PT Hub"
+        technology = "PHP 7.0 -> 7.1 | Laravel 5.4, AWS, Ionic v1"
+        tagline = "Part of my job is maintaining the legacy system that we have. The API is used by both versions of My PT Hub.\nI started off by developing the classic platform, this included bug fixing, upgrading legacy code (ES5 -> ES6+) and adding new features.\nSome testing has been implemented on some of the more complex functionality that we have such as session bookings.\n\nI have upgraded the PHP version used from 7.0 to 7.1, and I am currently in the process of upgrading to 7.4 along with upgrading Laravel to the latest version."
+
+        [[params.projects.list]]
+        title = "Scorpion"
+        company = "Hare Digital"
+        technology = "PHP 5.6 -> 7.0, CodeIgniter 2, Java, CentOS, RHEL"
+        tagline = "This was the biggest, and most consistent project I worked on at hare, we were tasked with maintaining and improving on software that focused on asset tracking for both businesses and consumers.\nI was tasked with managing 3 dedicated servers and multiple VPS's which ran different software to communicate with the units that were attached the the assets that were being tracked.\nOne of my main tasks was keeping the legacy codebase up to date and adding new features, such as PayPal integration for subscription payments. During my time here we upgraded the PHP version from 5.6 to 7.0."
+
+        [[params.projects.list]]
+        title = "Scorpion & TomTom"
+        company = "Hare Digital"
+        technology = "PHP 7, Lumen 5.2, Vue 1, Java, Android"
+        tagline = "With this project we created a new API that was to be used with enterprise TomTom devices.\nAn app was developed to replicate the functionality provided for the asset tracking software but in partnership with TomTom.\nA web-based front-end was also created which allowed business owners to monitor their assets in real-time and communicate with the TomTom devices."
+
+        [[params.projects.list]]
+        title = "Other Projects"
+        company = "Hare Digital"
+        technology = "PHP 5.6, Laravel 5.0"
+        tagline = "In-house client management and communication platform.\n\nSaaS idea for online catalogues for manufacturing"
+
+        [[params.projects.list]]
+        title = "CLI tool for finance"
+        company = "My PT Hub"
+        technology = ""
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "CLI tool for finance"
+        company = "My PT Hub"
+        technology = ""
+        tagline = ""
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Technology i use"
+
+        [[params.skills.list]]
+        skill = "PHP / Laravel"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "ES6+"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Typescript"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Node"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Vue"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "React"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Redux"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "React Native"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Ionic / Cordova"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Terraform"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Docker"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Nginx / Apache"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "AWS & GCP"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Firebase"
+        level = "100%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "James Wallen-Jones"
