@@ -212,18 +212,6 @@ disable404 = false
         technology = "PHP 5.6, Laravel 5.0"
         tagline = "In-house client management and communication platform.\n\nSaaS idea for online catalogues for manufacturing"
 
-        [[params.projects.list]]
-        title = "CLI tool for finance"
-        company = "My PT Hub"
-        technology = ""
-        tagline = ""
-
-        [[params.projects.list]]
-        title = "CLI tool for finance"
-        company = "My PT Hub"
-        technology = ""
-        tagline = ""
-
     # Skills section
     [params.skills]
         enable = true
