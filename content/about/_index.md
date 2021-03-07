@@ -6,7 +6,7 @@ hidden = true
 
 Hello.
 
-My name is James. I'm currently the head of development at [MyPTHub](https://www.mypthub.net).
+My name is James. I'm currently slacking off while I should be working.
 
 I'm a full stack developer with experience in multiple languages.
 
@@ -23,7 +23,7 @@ When I'm not developing, I can usually be found on my aggressive skates either g
 ### Employment History
 
 #### My PT Hub
-July 2017 - Present | *Head Of Development*
+July 2017 - February 2021 | *Head Of Development*
 
 My role at My PT Hub means I am the "go-to" person for the rest of the team. I work alongside the management team and help out a team of 6-8 developers to get things done.
 
