@@ -14,7 +14,11 @@ I'm a strong believer in producing high quality, readable code. Documentation, t
 
 I first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since then, I have been constantly learning new things myself and keeping on top of current web trends.
 
-When I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7).
+When I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering electronics. I have a keen interest in electrical engineering and have completed a few related projects, such as:
+
+- Creating my own 60% keyboard
+- Designing and manufacturing a small batch run of custom GameBoy Cartridges
+- Creating small PCB's which allow you to have USB-C charging on the GameBoy Advance SP and a similar product for the Nintendo DS Lite.
 
 
 
@@ -22,8 +26,25 @@ When I'm not developing, I can usually be found on my aggressive skates either g
 
 ### Employment History
 
+#### NDA
+February 2021 - Present | *Head Of Development*
+
+My role here as one of the founding staff members was to create a good foundation of a product that could be built upon over time. I started the project using the latest versions of the technology that i use. Since them the platform has been updated to the newest versions (Laravel 9, PHP 8.2).
+
+During my time here i've been responsible for building not only a SaaS product, but a development team too.
+
+**Projects I've worked on:**
+
+- **SaaS Product**
+    
+    *PHP 8.2, Laravel 9, Laravel Vapor, AWS Lambda, Livewire, AlpineJS, Vue.JS, Redis, Stripe, Chargebee, Recurly*
+    
+    Over a period of 2 years, we have built a B2C product that allows customers to self-serve management of their own subscriptions. The platform has been built in a way that it works with multiple payment providers, and makes it easy for developers to add compatibility for new payment providers.
+    One big part of the product is importing of data from payment providers so that it can be analysed by our system. This required the use of caching and managing rate limits with external services.
+
+
 #### My PT Hub
-July 2017 - Present | *Head Of Development*
+July 2017 - February 2021 | *Head Of Development*
 
 My role at My PT Hub means I am the "go-to" person for the rest of the team. I work alongside the management team and help out a team of 6-8 developers to get things done.
 
