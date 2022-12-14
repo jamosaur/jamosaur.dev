@@ -125,17 +125,23 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "About Me"
-        summary = "My name is James. I'm currently the head of development at [MyPTHub](https://www.mypthub.net).\n\nI'm a full stack developer with experience in multiple languages.\n\nI'm a strong believer in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.\n\nI first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since then, I have been constantly learning new things myself and keeping on top of current web trends.\n\nWhen I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering with a raspberry pi (or 7)."
+        summary = "My name is James.\n\nI'm a full stack developer with experience in multiple languages.\n\nI'm a strong believer in producing high quality, readable code. Documentation, testing and code standards are just as important as code quality.\n\nI first got interested in development at a young age when I saw my dad building basic websites with Microsoft FrontPage. Since then, I have been constantly learning new things myself and keeping on top of current web trends.\n\nWhen I'm not developing, I can usually be found on my aggressive skates either grinding on rails or flying through the air off ramps. I enjoy binge watching series' on Netflix, playing the occasional computer game, renovating the house or tinkering electronics. I have a keen interest in electrical engineering and have completed a few related projects, such as:\n\n - Creating my own 60% keyboard\n - Designing and manufacturing a small batch run of custom GameBoy Cartridges\n - Creating small PCB's which allow you to have USB-C charging on the GameBoy Advance SP and a similar product for the Nintendo DS Lite."
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
         title = "Experience"
+        
+        [[params.jobs.list]]
+        position = "Head Of Development"
+        dates = "February 2021 - Present"
+        company = "NDA"
+        details = "My role here as one of the founding staff members was to create a good foundation of a product that could be built upon over time. I started the project using the latest versions of the technology that i use. Since them the platform has been updated to the newest versions (Laravel 9, PHP 8.2).\n\nDuring my time here i've been responsible for building not only a SaaS product, but a development team too."
 
         [[params.jobs.list]]
         position = "Head Of Development"
-        dates = "July 2017 - Present"
+        dates = "July 2017 - February 2021"
         company = "My PT Hub"
         details = "My role at My PT Hub means I am the \"go-to\" person for the rest of the team. I work alongside the management team and lead a team of 6-8 developers to get things done.\n\nMy main responsibilities are:\n\n - Maintaining infrastructure\n- Mentoring team members\n- Planning and developing features\n- Making decisions on which technologies to use\n- Migrating legacy code to modern standards\n- Upgrading payment systems to be SCA compliant"
 
@@ -157,6 +163,12 @@ disable404 = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**Projects i've worked on in my roles**"
+        
+        [[params.projects.list]]
+        title = "My PT Hub V3"
+        company = "NDA"
+        technology = "PHP 8.2, Laravel 9, Laravel Vapor, AWS Lambda, Livewire, AlpineJS, Vue.JS, Redis, Stripe, Chargebee, Recurly"
+        tagline = "Over a period of 2 years, we have built a B2C product that allows customers to self-serve management of their own subscriptions. The platform has been built in a way that it works with multiple payment providers, and makes it easy for developers to add compatibility for new payment providers.\nOne big part of the product is importing of data from payment providers so that it can be analysed by our system. This required the use of caching and managing rate limits with external services."
 
         [[params.projects.list]]
         title = "My PT Hub V3"
