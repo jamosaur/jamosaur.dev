@@ -6,7 +6,7 @@ hidden = true
 
 Hello.
 
-My name is James. I'm currently the head of development at [MyPTHub](https://www.mypthub.net).
+My name is James.
 
 I'm a full stack developer with experience in multiple languages.
 
