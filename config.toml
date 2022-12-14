@@ -108,7 +108,7 @@ disable404 = false
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Rollerblading"
+        interest = "Electronics"
 
         [[params.interests.list]]
         interest = "Ice Hockey"
@@ -137,7 +137,7 @@ disable404 = false
         position = "Head Of Development"
         dates = "February 2021 - Present"
         company = "NDA"
-        details = "My role here as one of the founding staff members was to create a good foundation of a product that could be built upon over time. I started the project using the latest versions of the technology that i use. Since them the platform has been updated to the newest versions (Laravel 9, PHP 8.2).\n\nDuring my time here i've been responsible for building not only a SaaS product, but a development team too."
+        details = "My role here as one of the founding staff members was to create a good foundation of a product that could be built upon over time. I started the project using the latest versions of the technology that i use. Since them the platform has been updated to the newest versions (Laravel 9, PHP 8.2).\n\nDuring my time here i've been responsible for building not only a SaaS product from the ground up, but a development team also."
 
         [[params.jobs.list]]
         position = "Head Of Development"
@@ -165,7 +165,7 @@ disable404 = false
         intro = "**Projects i've worked on in my roles**"
         
         [[params.projects.list]]
-        title = "My PT Hub V3"
+        title = "SaaS Product"
         company = "NDA"
         technology = "PHP 8.2, Laravel 9, Laravel Vapor, AWS Lambda, Livewire, AlpineJS, Vue.JS, Redis, Stripe, Chargebee, Recurly"
         tagline = "Over a period of 2 years, we have built a B2C product that allows customers to self-serve management of their own subscriptions. The platform has been built in a way that it works with multiple payment providers, and makes it easy for developers to add compatibility for new payment providers.\nOne big part of the product is importing of data from payment providers so that it can be analysed by our system. This required the use of caching and managing rate limits with external services."
