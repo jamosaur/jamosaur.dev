@@ -168,7 +168,7 @@ disable404 = false
         title = "SaaS Product"
         company = "NDA"
         technology = "PHP 8.2, Laravel 9, Laravel Vapor, AWS Lambda, Livewire, AlpineJS, Vue.JS, Redis, Stripe, Chargebee, Recurly"
-        tagline = "Over a period of 2 years, we have built a B2C product that allows customers to self-serve management of their own subscriptions. The platform has been built in a way that it works with multiple payment providers, and makes it easy for developers to add compatibility for new payment providers.\nOne big part of the product is importing of data from payment providers so that it can be analysed by our system. This required the use of caching and managing rate limits with external services."
+        tagline = "Over a period of 2 years, we have built a B2C product that allows customers to self-serve manage their own subscriptions. The platform has been built in a way that it works with multiple payment providers, and makes it easy for developers to add compatibility for new payment providers.\nOne big part of the product is importing of data from payment providers so that it can be analysed by our system. This required the use of caching and managing rate limits with external services."
 
         [[params.projects.list]]
         title = "My PT Hub V3"
